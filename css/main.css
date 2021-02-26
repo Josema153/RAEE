@@ -16,17 +16,23 @@ body {
   font-size: 20px;  /* parrafo reciclaje */
 }
 
-#top-header .imagen{
+#top-header .imglogo .logo{
     
-    text-align: left;
+    float:left;
+}
+
+#top-header .imglogo .escu{
     
+    float:right;
 }
 
 #top-header .anexo{
     color: #ffA500;
-    text-align: right;
-    float:left;
+    text-align: left;
     font-size: 11px;
+    position: absolute;
+    padding: 40px;
+
 }
 
 /*  Subtitulos de los textos grupo 1 y 2  */
